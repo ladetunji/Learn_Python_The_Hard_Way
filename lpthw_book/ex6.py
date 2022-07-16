@@ -23,9 +23,9 @@ print(f"I also said: '{y}'.")
 boring = True
 hilarious = False
 # Set a variable joke_eval to a string with empty variable inside
-joke_evaluation = "Isn't that joke so funny?! {}"
+joke_evaluation = "Isn't that joke so funny?! {} or {} or {}?"
 # Print a string with a format(string)
-print(joke_evaluation.format(boring))
+print(joke_evaluation.format(boring, hilarious, "Cannot say"))
 
 # Set 2 variables w and e with strings
 w = "This is the left side of..."
